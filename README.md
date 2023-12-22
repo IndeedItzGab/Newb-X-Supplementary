@@ -4,7 +4,7 @@ Enhance your Minecraft experience with Newb X Supplementary, a cutting-edge bedr
 This shader is original from [Newb X Legacy](https://github.com/devendrn/newb-x-mcbe) and modified by [IndeedItzGab](https://github.com/IndeedItzGab).
 
 ## Screenshot
-![NewbXSupplementary-V4.0](additional/4.0.png)
+![NewbXSupplementary-V4.0](additional/4.0.jpg)
 
 ## Note
 **RenderDragon Shaders are not officially supported on Minecraft**
