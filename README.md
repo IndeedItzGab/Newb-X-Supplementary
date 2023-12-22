@@ -1,1 +1,2 @@
-# Newb-X-Supplementary
+# Newb X Supplementary
+Enhance your Minecraft experience with Newb X Supplementary, a cutting-edge bedrock shader meticulously designed to complement and amplify the intricate details of Newb X Legacy. Immerse yourself in a world where textures come alive, shadows dance with realism, and every pixel is infused with enhanced vibrancy. Elevate your gaming visuals to new heights with this dynamic duo, where Supplementary seamlessly supplements the details of Legacy, creating a truly immersive and visually stunning gameplay environment.
