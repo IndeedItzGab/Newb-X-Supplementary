@@ -9,25 +9,9 @@ This shader is original from [Newb X Legacy](https://github.com/devendrn/newb-x-
 ## Note
 **RenderDragon Shaders are not officially supported on Minecraft**
 
-## Downloads & Installation
-### [Android](docs/ANDROID.md)
-- **64 Bits**
-> 1. Install [Patched APK](https://github.com/DominoKorean/Render-dragon-shader-list/blob/main/patchedapp.md) in order to use the supported RenderDragon Shader.
-> 2. Install [Newb X Supplementary V4.0 Pack](https://www.mediafire.com/file/rnjby3wf8zqa351/NewbXSupplementary-Android.mcpack/file) and Import it, after that activate it.
-> 3. Restart your Minecraft to fix Cubemap (not necessary)
-- **32 Bits**
-> 1. Install our modified [Minecraft APK](https://www.mediafire.com/file/qvqyufqra2iy00h/Minecraft-Supplementary-V1-20-51.apk/file) that contains Newb X Supplementary materials in it.
-> 2. Install [Additional-Resources Pack](https://www.mediafire.com/file/a9ame3s9bxpzis2/Additional-Resources.mcpack/file) to fix bugs and to add more features.
-> 3. Import and activate it.
+## [Downloads & Installation](https://github.com/IndeedItzGab/Newb-X-Supplementary/releases/tag/V4.0)
+- Follow the tutorial of the Operating System (Device Platform) you're using.
 
-### [iOS](docs/IOS.md)
-> 1. Install our modified [Minecraft IPA](https://www.mediafire.com/file/5jhr9ib1z96k0xw/Minecraft-Supplementary-V1-20-51.ipa/file) that contains Newb X Supplementary materials in it.
-> 2. Install [Additional-Resources Pack](https://www.mediafire.com/file/a9ame3s9bxpzis2/Additional-Resources.mcpack/file) to fix bugs and to add more features.
-> 3. Import and activate it.
-
-### [Windows](docs/WINDOWS.md)
-> 1. Use [BetterRenderDragon](https://github.com/ddf8196/BetterRenderDragon) in order to use the supported RenderDragon Shader.
-> 2. Install [Newb X Supplementary Pack](https://www.mediafire.com/file/ya9a8yrwcq7sl40/NewbXSupplementary-Windows.mcpack/file) and import it, after that activate it.
 
 ## QnA
 ## Patched APK is safe?
