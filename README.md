@@ -10,7 +10,7 @@ This shader is original from [Newb X Legacy](https://github.com/devendrn/newb-x-
 **RenderDragon Shaders are not officially supported on Minecraft**
 
 ## Downloads
-### Android
+### [Android](docs/ANDROID.md)
 - **64 Bits**
 > 1. Install [Patched APK](https://github.com/DominoKorean/Render-dragon-shader-list/blob/main/patchedapp.md) in order to use the supported RenderDragon Shader.
 > 2. Install [Newb X Supplementary V4.0 Pack](https://www.mediafire.com/file/rnjby3wf8zqa351/NewbXSupplementary-Android.mcpack/file) and Import it, after that activate it.
