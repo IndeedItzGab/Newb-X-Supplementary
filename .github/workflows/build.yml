@@ -1,0 +1,43 @@
+name: build
+
+on:
+  push:
+    branches:
+      - main
+      - devel
+
+jobs:
+  build:
+    runs-on: windows-latest
+
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v3
+      with:
+        fetch-depth: 0
+        repository: IndeedItzGab/newb-x-supplementary-Private 
+        token: ${{ secrets.PUBLIC_WORKFLOW_REPO }}
+
+
+    - name: Cache env files
+      uses: actions/cache@v3
+      with:
+        key: env-files
+        path: |
+          ${{ github.workspace }}/env
+          ${{ github.workspace }}/data
+
+    - name: Setup build env
+      run: .\setup.bat
+
+    - name: Build for Windows
+      run: ./pack.sh -w -p windows
+      shell: bash
+
+    - name: Upload Windows pack
+      uses: actions/upload-artifact@v3
+      with:
+        name: newb-x-windows
+        path: ./build/windows/temp
+
+
