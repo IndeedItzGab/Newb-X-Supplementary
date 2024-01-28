@@ -40,7 +40,7 @@ jobs:
       run: Compress-Archive -Path ./build/merged/temp/* -DestinationPath ./build/merged/NewbXSupplementary.mcpack
       
     - name: Deleting Temp folder
-      run: rm ./build/merged/temp
+      run: Remove-Item -Path ./build/merged/temp -Force -Recurse
 
     - name: Upload Newb-X-Supplementary Zip
       uses: actions/upload-artifact@v4
