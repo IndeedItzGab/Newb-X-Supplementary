@@ -30,14 +30,14 @@ jobs:
     - name: Setup build env
       run: .\setup.bat
 
-    - name: Build for Windows
-      run: ./pack.sh -w -p windows
+    - name: Build Merged pack
+      run: ./final.sh -w -p merged
       shell: bash
 
-    - name: Upload Windows pack
+    - name: Upload NewbXSupplementary Zip
       uses: actions/upload-artifact@v3
       with:
-        name: newb-x-windows
-        path: ./build/windows/temp
+        name: NewbXSupplementary
+        path: ./build/merged
 
 
