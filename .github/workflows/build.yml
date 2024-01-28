@@ -5,6 +5,9 @@ on:
     branches:
       - main
       - devel
+    paths:
+      - '**/*'
+      - '!./build/merged/temp'
 
 jobs:
   build:
@@ -12,15 +15,14 @@ jobs:
 
     steps:
     - name: Checkout
-      uses: actions/checkout@v3
+      uses: actions/checkout@v4
       with:
         fetch-depth: 0
         repository: IndeedItzGab/newb-x-supplementary-Private 
         token: ${{ secrets.PUBLIC_WORKFLOW_REPO }}
 
-
     - name: Cache env files
-      uses: actions/cache@v3
+      uses: actions/cache@v4
       with:
         key: env-files
         path: |
@@ -29,15 +31,22 @@ jobs:
 
     - name: Setup build env
       run: .\setup.bat
-
-    - name: Build Merged pack
+      
+    - name: Building Merged pack
       run: ./final.sh -w -p merged
       shell: bash
+      
+    - name: Zip Merged pack
+      run: Compress-Archive -Path ./build/merged/temp/* -DestinationPath ./build/merged/NewbXSupplementary.mcpack
+      
+    - name: Deleting Temp folder
+      run: rm ./build/merged/temp
 
-    - name: Upload NewbXSupplementary Zip
-      uses: actions/upload-artifact@v3
+    - name: Upload Newb-X-Supplementary Zip
+      uses: actions/upload-artifact@v4
       with:
         name: NewbXSupplementary
         path: ./build/merged
+      
 
 
