@@ -1,4 +1,4 @@
 # iOS
-> 1. Install our modified [Minecraft IPA](https://www.mediafire.com/file/5jhr9ib1z96k0xw/Minecraft-Supplementary-V1-20-51.ipa/file) that contains Newb X Supplementary materials in it.
-> 2. Install [Additional-Resources Pack](https://www.mediafire.com/file/a9ame3s9bxpzis2/Additional-Resources.mcpack/file) to fix bugs and to add more features.
-> 3. Import and activate it.
+> 1. Follow the guide given in the Newb Community Guide channel to use this, I'll just teach you where to get the materials to inject into your ipa.
+> 2. Install the latest version of our variant; [click here](https://github.com/IndeedItzGab/Newb-X-Supplementary/releases/tag/V5.0)
+> 3. Extract the "NewbXSupplementary.zip" and extract the "NewbXSupplementary.mcpack" again to get the materials in `*/renderer/materials/`
